@@ -1,11 +1,11 @@
 
 # ARCH FAST CONFIG
 
-Este repositório foi feito para ter uma **rápida e customizável** instalação do hyprland para Arch.
+Este repositório foi feito para ter uma rápida e customizável instalação do hyprland para Arch.
 
 # Installation
 
-Antes de tudo é necessário baixar o [archlinux] (https://archlinux.org/download/) no modo minimal.
+Antes de tudo é necessário baixar o [archlinux](https://archlinux.org/download/) no modo minimal.
 
 Como pacotes necessários você precisará apenas do git.
 
