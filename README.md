@@ -1,15 +1,15 @@
 
 # ARCH FAST CONFIG
 
-Este repositório foi feito para ter uma rápida e customizável instalação do hyprland para Arch.
+This repository was made to have a quick and customizable installation of hyprland for Arch.
 
 # Installation
 
-Antes de tudo é necessário baixar o [archlinux](https://archlinux.org/download/) no modo minimal.
+First of all, you need to download [Archlinux](https://archlinux.org/download/) in minimal mode.
 
-Como pacotes necessários você precisará apenas do git.
+As required packages you will only need git.
 
-Depois que a instalação estiver completa, basta rodar os seguintes comandos
+Once the installation is complete, simply run the following commands:
 
 ```
 git clone https://github.com/m12Passarini/Arch-Config ~/dotfiles
@@ -19,23 +19,22 @@ bash install.sh
 
 # Manual
 
-Para quem usa linux, principalmente o arch, o melhor manual existente é a comunicação de cada pacote, então 
-sinta-se livre para explorar a documentação dos pacotes listados em pkglist.txt
+For those who use Linux, especially Arch, the best manual available is the communication of each package, so feel free to explore the documentation of the packages listed in pkglist.txt.
 
-Entretanto para uma navegação básica existem alguns comandos que podem ser importantes você saber de início
+However, for basic navigation, there are some commands that may be important for you to know from the start.
 
-**SUPER** == Tecla windows / Command
+**SUPER** ==  Windows key / Command
 
-**SUPER** + **Q** = Abre o terminal
+**SUPER** + **Q** = Open terminal
 
-**SUPER** + **SPACE** = Abre a barra de pesquisa
+**SUPER** + **SPACE** = Open search bar
 
-**SUPER** + **E** = Abre o gerenciador de arquivos
+**SUPER** + **E** = Open file manager
 
-**SUPER** + **SHIFT** + **X** = Fecha a janela
+**SUPER** + **SHIFT** + **X** = Close the current window
 
-**SUPER** + (0 - 9) = Navega entre as páginas
+**SUPER** + (0 - 9) = Change window
 
-**SUPER** + **M** = Abre o menu que possibilita desligar o sistema
+**SUPER** + **M** = Open menu (here you can shutdown the device)
 
 

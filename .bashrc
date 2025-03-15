@@ -2,7 +2,6 @@
 # ~/.bashrc
 #
 
-# If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
@@ -13,16 +12,16 @@ eval "$(starship init bash)"
 
 rm() {
     echo ""	
-    echo " O comando 'rm' exclui arquivos permanentemente!"
-    echo " Em vez disso, tente usar o 'trash-cli':"
+    echo " The command 'rm' remove the items permanently!"
+    echo " Instead that, try use 'trash-cli':"
     echo ""
-    echo "    trash-put nome_do_arquivo"
+    echo "    trash-put file_name"
     echo ""
-    read -p "Tem certeza que quer usar 'rm'? (S/N) " answer
+    read -p "Are you sure to use 'rm'? (S/N) " answer
 
     if [[ "$answer" =~ ^[sS]$ ]]; then
         /bin/rm "$@"
     else
-        echo "Operação cancelada."
+        echo "Canceled operation"
     fi
 }
