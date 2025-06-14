@@ -5,16 +5,24 @@ This repository was made to have a quick and customizable installation of hyprla
 
 # Installation
 
-First of all, you need to download [Archlinux](https://archlinux.org/download/) in minimal mode.
+First of all, you need to follow the download in [Archlinux](https://archlinux.org/download/), and install the distro in minimal mode.
 
-As required packages you will only need git.
+As required packages you will only need **git** for now.
 
-Once the installation is complete, simply run the following commands:
+Once the installation is complete, enter in chroot and run the following commands:
+(you can enter in chroot running "arch-chroot /mnt")
 
 ```
 git clone https://github.com/m12Passarini/Arch-Config ~/dotfiles
 cd ~/dotfiles
 bash install.sh 
+```
+
+Then your installation is done. Now you can type:
+
+```
+exit
+hyprland
 ```
 
 # Manual
