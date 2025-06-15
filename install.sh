@@ -27,5 +27,5 @@ cp -r .icons ~/
 cp -r .bashrc ~/
 
 echo ""
-echo "Type - 'exit' and then 'reboot'"
+echo "Installation completed successfully! - Now you can type 'reboot'"
 echo ""

@@ -9,8 +9,7 @@ First of all, you need to follow the download in [Archlinux](https://archlinux.o
 
 As required packages you will only need **git** for now.
 
-Once the installation is complete, enter in chroot and run the following commands:
-(you can enter in chroot running "arch-chroot /mnt")
+Once the installation is complete, enter in your user and run the following commands:
 
 ```
 git clone https://github.com/m12Passarini/Arch-Config ~/dotfiles
@@ -18,10 +17,9 @@ cd ~/dotfiles
 bash install.sh 
 ```
 
-Then your installation is done. Now you can type:
+Then your installation is done. Now you can reboot and then use hyprland:
 
 ```
-exit
 hyprland
 ```
 
