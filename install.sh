@@ -7,12 +7,17 @@ echo ""
 sudo pacman -Syu --noconfirm
 sudo pacman -S --needed - < packages/pkglist.txt
 
+if ! command -v git  || ! command -v base-devel &> /dev/null; then
+    sudo pacman -S --noconfirm git base-devel
+fi
+
 if ! command -v yay &> /dev/null; then
     git clone https://aur.archlinux.org/yay.git
     cd yay
-    makepkg -si --noconfirm
+    sudo makepkg -si --noconfirm
     cd - 
     yay -S --needed - < packages/aurlist.txt
+    rm -rf yay
 else 
     yay -S --needed - < packages/aurlist.txt
 fi
