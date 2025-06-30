@@ -1,2 +1,11 @@
-hyprpicker
-swww
+dracula-gtk-theme
+dracula-icons-git
+electron33
+heroic-games-launcher-bin
+notion-app-electron
+snapd
+swaylock-effects
+visual-studio-code-bin
+walker
+wlogout
+yay-git

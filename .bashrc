@@ -8,6 +8,7 @@
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 export VIRTUAL_ENV_DISABLE_PROMPT=0
+export EDITOR=vim
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
@@ -49,17 +50,20 @@ PS1+='\[\e[38;5;228m\]$(format_path)\a'
 PS1+='\[\e[38;5;203m\]${PS1_CMD1}'  
 PS1+='\n\[\e[38;5;86m\]\$\[\e[0m\]  '
 
+
+#eval "$(starship init bash)"
+
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 
 rm() {
     echo ""	
-    echo " Command 'rm' remove files permanently!"
-    echo " Instead this, try use 'trash-cli':"
+    echo " O comando 'rm' exclui arquivos permanentemente!"
+    echo " Em vez disso, tente usar o 'trash-cli':"
     echo ""
-    echo "    trash-put file_name"
+    echo "    trash-put nome_do_arquivo"
     echo ""
-    read -p "Do you want use 'rm'? (Y/N) " answer
+    read -p "Tem certeza que quer usar 'rm'? (S/N) " answer
 
     if [[ "$answer" =~ ^[sS]$ ]]; then
         /bin/rm "$@"
