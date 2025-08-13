@@ -58,16 +58,16 @@ eval "$(pyenv init -)"
 
 rm() {
     echo ""	
-    echo " O comando 'rm' exclui arquivos permanentemente!"
-    echo " Em vez disso, tente usar o 'trash-cli':"
+    echo " Command 'rm' remove the files and directorys permanently!"
+    echo " Instead, try use 'trash-cli':"
     echo ""
-    echo "    trash-put nome_do_arquivo"
+    echo "    trash-put file_name"
     echo ""
-    read -p "Tem certeza que quer usar 'rm'? (S/N) " answer
+    read -p " Do you want use 'rm'? (Y/N) " answer
 
-    if [[ "$answer" =~ ^[sS]$ ]]; then
+    if [[ "$answer" =~ ^[Yy]$ ]]; then
         /bin/rm "$@"
     else
-        echo "Operação cancelada."
+        echo "Canceled command!"
     fi
 }

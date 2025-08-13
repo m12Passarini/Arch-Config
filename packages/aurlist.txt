@@ -7,5 +7,6 @@ snapd
 swaylock-effects
 visual-studio-code-bin
 walker
+walker-debug
 wlogout
 yay-git
